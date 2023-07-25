@@ -108,16 +108,6 @@
       color: #b54461;
     }
 
-    section.star {
-      position: absolute;
-      content: url("./asset/bg_kira_pc.png");
-      position: absolute;
-      left: 0px;
-      top: 0px;
-      height: 100%;
-      z-index: -1;
-    }
-
     .lyricTitle {
       cursor: pointer;
       font-family: "Zen Maru Gothic", sans-serif;
@@ -144,8 +134,43 @@
       letter-spacing: 2px;
       padding-top: 0.1rem;
     }
+
+    section.star {
+      position: absolute;
+      background-image: url("./asset/bg_kira_pc.png");
+      left: 0px;
+      top: 0px;
+      height: 100%;
+      width: 100%;
+      z-index: -1;
+    }
+
+    section.borderDecoration1 {
+      position: absolute;
+      left: 0px;
+      top: 0px;
+      box-sizing: border-box;
+      width: 100%;
+      height: 100%;
+      border: solid #f7c130 15px;
+      z-index: -1;
+    }
+
+    section.borderDecoration2 {
+      position: absolute;
+      left: 0px;
+      top: 0px;
+      box-sizing: border-box;
+      width: 100%;
+      height: 100%;
+      border: solid #f7c130 15px;
+      border-radius: 30px;
+      z-index: -1;
+    }
   </style>
   <body>
+    <section class="borderDecoration1"></section>
+    <section class="borderDecoration2"></section>
     <div class="main">
       <section class="emoji">
         <p class="unselectable removeCursor">⌒(*＞ｖ＜)b⌒</p>
