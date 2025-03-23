@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>亜利沙姫✨</title>
+        <meta name="author" content="LTurret" />
+        <link rel="shortcut icon" type="image/png" href="./asset/favicon.png" />
+        <link rel="stylesheet" href="" />
+        <style>
+            ::-webkit-scrollbar {
+                width: 8px;
+            }
+
+            ::-webkit-scrollbar-track {
+                background: transparent;
+            }
+
+            ::-webkit-scrollbar-thumb {
+                background-color: #f7c130;
+                border-radius: 10px;
+            }
+
+            body {
+                scrollbar-width: thin;
+                scrollbar-color: #f7c130 transparent;
+                overflow-y: scroll;
+            }
+
+            html {
+                overflow: hidden;
+            }
+        </style>
+    </head>
+    <style>
+        @import url("https://fonts.googleapis.com/css2?family=Hachi+Maru+Pop&display=swap");
+        @import url("https://fonts.googleapis.com/css2?family=Zen+Maru+Gothic:wght@300;400&display=swap");
+        @import url("https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@300&display=swap");
+
+        html,
+        body {
+            height: 100%;
+        }
+
+        body {
+            position: relative;
+            background-image: url("./asset/bg_light.jpg");
+            margin: 0;
+            padding-bottom: 4rem;
+        }
+
+        .unselectable {
+            -webkit-touch-callout: none;
+            -webkit-user-select: none;
+            -khtml-user-select: none;
+            -moz-user-select: none;
+            -ms-user-select: none;
+            user-select: none;
+        }
+
+        .removeCursor {
+            cursor: default;
+        }
+
+        * {
+            text-decoration: none;
+            color: #393939;
+            padding: 0;
+            border: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+
+        * h1 {
+            font-size: 72px;
+        }
+
+        * p {
+            font-size: 21px;
+        }
+
+        * a {
+            font-size: 1.17em;
+            font-weight: bold;
+        }
+
+        ::selection {
+            background: #f7c130;
+        }
+
+        .main {
+            padding-top: 10vh;
+            width: 100%;
+            max-width: 960px;
+            margin: 0 auto;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            padding-left: 1rem;
+            padding-right: 1rem;
+            padding-bottom: 4rem;
+        }
+
+        @keyframes borderPulse {
+            0% {
+                box-shadow: 0 0 0 0 rgba(181, 68, 97, 0.3);
+            }
+            70% {
+                box-shadow: 0 0 0 15px rgba(247, 193, 48, 0);
+            }
+            100% {
+                box-shadow: 0 0 0 0 rgba(247, 193, 48, 0);
+            }
+        }
+
+        .main img {
+            width: 100%;
+            max-width: 500px;
+            height: auto;
+            display: block;
+            margin: 2rem auto -4rem auto;
+            border: 5px solid rgba(181, 68, 97, 0.5);
+            border-radius: 30px;
+            animation: borderPulse 2s infinite;
+        }
+
+        h1 {
+            font-family: "Zen Maru Gothic", sans-serif;
+            letter-spacing: -3px;
+            margin-top: 2rem;
+            margin-bottom: 0.5rem;
+            font-size: 72px;
+            transition: all 0.5s ease;
+        }
+
+        h1:hover {
+            letter-spacing: 0px;
+            color: #b54461;
+        }
+
+        .main h3 {
+            font-family: "Zen Maru Gothic", sans-serif;
+            padding-left: 1.25rem;
+            letter-spacing: 16px;
+            text-align: center;
+            font-size: 24px;
+            transition: all 0.5s ease;
+        }
+
+        .main h3:hover {
+            letter-spacing: 20px;
+            color: #b54461;
+        }
+
+        h4 {
+            font-family: "Zen Maru Gothic", sans-serif;
+            font-size: 1.17rem;
+            letter-spacing: 2px;
+            text-align: center;
+        }
+
+        /* Bouncing animation */
+        @keyframes bounceTitle {
+            0%,
+            100% {
+                transform: translateY(0);
+            }
+            50% {
+                transform: translateY(-5px);
+            }
+        }
+
+        .bounceContainer {
+            display: inline-block;
+        }
+        .char {
+            font-family: Hachi Maru Pop;
+            display: inline-block;
+            animation: bounceTitle 2s infinite ease-in-out;
+            transition: all 0.5s ease;
+        }
+        .bounceContainer:hover .char {
+            letter-spacing: 5px;
+            color: #b54461;
+        }
+
+        section.emoji p {
+            font-family: "Hachi Maru Pop", cursive;
+            transition: all 0.5s ease;
+            font-size: 24px;
+        }
+
+        section.emoji p:hover {
+            color: #b54461;
+        }
+
+        .lyricTitle {
+            cursor: pointer;
+            font-family: "Zen Maru Gothic", sans-serif;
+            font-size: 1.17em;
+            margin-top: 5rem;
+            text-align: center;
+        }
+
+        .lyricTitle a {
+            transition: all 0.5s ease;
+        }
+
+        .lyricTitle a:hover {
+            color: #b54461;
+        }
+
+        .lyrics {
+            margin-top: 0.5rem;
+            text-align: center;
+        }
+        .lyrics p {
+            font-size: 21px;
+        }
+
+        p {
+            font-family: "M PLUS Rounded 1c", sans-serif;
+            letter-spacing: 2px;
+            padding-top: 0.1rem;
+            transition: all 0.5s ease;
+        }
+        p:hover {
+            color: #b54461;
+        }
+
+        section.star {
+            position: absolute;
+            background-image: url("./asset/bg_kira_pc.png");
+            left: -100px;
+            top: 0;
+            height: 100%;
+            width: 100%;
+            z-index: -2;
+        }
+
+        section.borderDecoration {
+            position: fixed;
+            left: 0;
+            top: 0;
+            width: 100vw;
+            height: 100vh;
+            box-sizing: border-box;
+            border-radius: 30px;
+            border: solid #f7c130 15px;
+            box-shadow: 0 0 0 15px #f7c130;
+            z-index: 9999;
+            pointer-events: none;
+        }
+
+        .main img {
+            width: 100%;
+            max-width: 500px;
+            height: auto;
+            display: block;
+            margin: 2rem auto -4rem auto;
+        }
+
+        @media (max-width: 768px) {
+            h1 {
+                font-size: 48px;
+                letter-spacing: -1px;
+            }
+
+            .main h3 {
+                letter-spacing: 8px;
+                font-size: 18px;
+                padding-left: 0;
+            }
+
+            section.emoji p {
+                font-size: 20px;
+            }
+
+            .lyricTitle {
+                font-size: 1rem;
+                margin-top: 3rem;
+            }
+
+            .lyrics p {
+                font-size: 18px;
+            }
+
+            .main img {
+                width: 100%;
+                max-width: 90%;
+                margin: 1.5rem auto -2rem auto;
+            }
+        }
+    </style>
+    <body>
+        <section class="borderDecoration"></section>
+        <div class="main">
+            <section class="emoji">
+                <p class="unselectable removeCursor bounceContainer">
+                    <span class="char" style="animation-delay: 0s">⌒</span>
+                    <span class="char" style="animation-delay: 0.2s">(</span>
+                    <span class="char" style="animation-delay: 0.4s">*</span>
+                    <span class="char" style="animation-delay: 0.6s">＞</span>
+                    <span class="char" style="animation-delay: 0.8s">ｖ</span>
+                    <span class="char" style="animation-delay: 1s">＜</span>
+                    <span class="char" style="animation-delay: 1.2s">)</span>
+                    <span class="char" style="animation-delay: 1.4s">b</span>
+                    <span class="char" style="animation-delay: 1.6s">⌒</span>
+                </p>
+            </section>
+            <h1 class="unselectable removeCursor">松田亜利沙</h1>
+            <h3 class="unselectable removeCursor">MATSUDA ARISA</h3>
+            <video
+                autoplay
+                loop
+                muted
+                playsinline
+                style="
+                    width: 100%;
+                    max-width: 500px;
+                    height: auto;
+                    border: 5px solid rgba(181, 68, 97, 0.5);
+                    border-radius: 30px;
+                    animation: borderPulse 2s infinite;
+                    display: block;
+                    margin: 2rem auto -4rem auto;
+                "
+            >
+                <source src="https://i.imgur.com/06TPacE.mp4" type="video/mp4" />
+            </video>
+            <div class="lyricTitle">
+                <a class="unselectable" href="https://www.youtube.com/watch?v=Iv9a2D9Ssy8"> ～ アイドルちゃんのいいところ7選 ～ </a>
+            </div>
+            <div class="lyrics">
+                <p>いち、かわいくて💖</p>
+                <p>に、かっこよくて✨</p>
+                <p>さん、努力家で🔥</p>
+                <p>よん、個性豊か📸</p>
+                <p>ご、あざとくてもいい💢</p>
+                <p>ろく、自然体でもいい🎐</p>
+                <p>なな、生きてれば存在が優勝😭🙏❗❗</p>
+            </div>
+        </div>
+        <section class="star"></section>
+    </body>
+    <script>
+        window.addEventListener("contextmenu", (event) => {
+            event.preventDefault();
+        });
+    </script>
+</html>
